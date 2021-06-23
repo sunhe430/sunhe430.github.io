@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-family: 나눔고딕;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+ul{
+	font-family: 나눔고딕;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 40px;
+}
+li{
+	list-style-type: none;
+	font-family: 맑은고딕;
+	font-size: 30px;
+	margin: 10px;
+}
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+.dropdownContents{
+	display: none;
+	width: absolute;
+	position: relative;
+}
+.dropdown :hover .dropdownContents{
+	display: block;
+}
+</style>
+</head>
+<body>
+<h2>TODAY 차트&gt;</h2>
+<div class="dropdown">
+<ul>국내 차트
+	<div class="dropdownContents">
+		<li><img src="./img/k1.png" height="60"><audio src="./music/k1.m4a" controls></audio></li>
+		<li><img src="./img/k2.png" height="60"><audio src="./music/k2.m4a" controls></audio></li>
+		<li><img src="./img/k3.png" height="60"><audio src="./music/k3.m4a" controls></audio></li>
+	</div>
+</ul>
+<ul>해외 차트
+	<div class="dropdownContents">
+		<li><img src="./img/h1.png" height="60"><audio src="./music/h1.m4a" controls></audio></li>
+		<li><img src="./img/h2.png" height="60"><audio src="./music/h2.m4a" controls></audio></li>
+		<li><img src="./img/h3.png" height="60"><audio src="./music/h3.m4a" controls></audio></li>
+	</div>
+</ul>
+</body>
+</html>
